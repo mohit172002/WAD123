@@ -1,0 +1,55 @@
+Microsoft Windows [Version 10.0.19044.2965]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Windows 10>cd C:\Users\Windows 10\Desktop\WAD Prac\Assi 3\Part A
+
+C:\Users\Windows 10\Desktop\WAD Prac\Assi 3\Part A>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (part-a)
+version: (1.0.0)
+description: This is te Assignment for Wad
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author: Vinit
+license: (ISC)
+About to write to C:\Users\Windows 10\Desktop\WAD Prac\Assi 3\Part A\package.json:
+
+{
+  "name": "part-a",
+  "version": "1.0.0",
+  "description": "This is te Assignment for Wad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinit",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+C:\Users\Windows 10\Desktop\WAD Prac\Assi 3\Part A>npm i express --save
+
+added 58 packages, and audited 59 packages in 3s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\Windows 10\Desktop\WAD Prac\Assi 3\Part A>node index.js
+Application Started Successfuly
+^C
+C:\Users\Windows 10\Desktop\WAD Prac\Assi 3\Part A>

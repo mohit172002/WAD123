@@ -1,0 +1,12 @@
+
+<div class="container"> 
+    
+    <input class="namefield" type="text" #user  [value]="searchValue" placeholder="Enter Username" name="username" id="username" required><br>
+ 
+    <input class="namefield" type="password" #pwd  [value]="pwdval" placeholder="Enter Password" name="psw" id="psw" required><br>
+    
+    <button  class="loginbtn" (click)="getData(user.value,pwd.value)">Login</button>
+    <button  class="registerbtn" (click)="clearSearch()">Reset</button>
+    
+</div>
+  

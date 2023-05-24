@@ -1,0 +1,13 @@
+<div class="container"> 
+    
+    <input class="namefield" type="text" #user placeholder="Enter Username" name="username" id="username" required><br>
+
+    <input  class="namefield" type="text" #emi placeholder="Enter Email" name="email" id="email" required><br>
+
+ 
+    <input class="namefield" type="password"  #pwd placeholder="Enter Password" name="psw" id="psw" required><br>
+    
+    <button  (click)="getValue(user.value,emi.value,pwd.value)" class="registerbtn">Register</button>
+    <button (click)="goToLogin()" class="loginbtn">Login</button>
+</div>
+  

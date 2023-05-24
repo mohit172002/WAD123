@@ -1,0 +1,14 @@
+{
+  "name": "part-a",
+  "version": "1.0.0",
+  "description": "This is te Assignment for Wad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vinit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

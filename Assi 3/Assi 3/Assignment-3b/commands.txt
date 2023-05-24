@@ -1,0 +1,5 @@
+1) npm init
+2) npm i express 
+3) npm i mongodb
+4) npm install mongoose
+5) node index.js
